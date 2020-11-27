@@ -2,7 +2,7 @@
   <main class="home">
     <h1>Presenting Your Vision</h1>
     <article>
-      <section class="centered-x">
+      <section>
         <h2>Words are our language</h2>
         <p>
           Healthy Content was formed in November 2014 by award-winning health
@@ -48,9 +48,9 @@ export default {
 <style scoped>
 .home {
   align-self: center;
-  text-align: center;
 }
 h2 {
+  text-align: center;
   border-bottom: 1px solid grey;
 }
 article {

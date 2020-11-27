@@ -50,7 +50,7 @@ p + p {
   margin-top: 1rem;
 }
 .container {
-  width: 90%;
+  width: 85%;
   max-width: 1440px;
   margin: 0 auto;
 }
