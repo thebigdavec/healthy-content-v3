@@ -4,10 +4,10 @@
     <nav>
       <router-link :to="{ name: 'Home' }">Home</router-link>
       <router-link :to="{ name: 'About' }">About</router-link>
-      <router-link :to="{ name: 'Home' }">Services</router-link>
-      <router-link :to="{ name: 'Home' }">Portfolio</router-link>
-      <router-link :to="{ name: 'Home' }">Testimonials</router-link>
-      <router-link :to="{ name: 'Home' }">Contact</router-link>
+      <router-link :to="{ name: 'Service' }">Services</router-link>
+      <router-link :to="{ name: 'Portfolio' }">Portfolio</router-link>
+      <router-link :to="{ name: 'Testimonials' }">Testimonials</router-link>
+      <router-link :to="{ name: 'Contact' }">Contact</router-link>
     </nav>
   </div>
 </template>

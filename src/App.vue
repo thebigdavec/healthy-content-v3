@@ -1,6 +1,8 @@
 <template>
   <TheHeader />
-  <router-view />
+  <div class="container flex">
+    <router-view />
+  </div>
   <TheFooter />
 </template>
 
