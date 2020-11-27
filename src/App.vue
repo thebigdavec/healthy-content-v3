@@ -20,6 +20,7 @@ export default {
 :root {
   --lts-small: 1px;
   --lts-large: 1.2px;
+  --fs-responsive: clamp(0.8125rem + 1vw, 0.8125rem + 1vw, 1rem);
 }
 *,
 *::after,
@@ -35,7 +36,7 @@ body {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 1.6;
 }
 #app {
@@ -44,8 +45,11 @@ body {
   grid-template-rows: auto 1fr auto;
 }
 h1 {
-  font-size: 2rem;
+  font-size: calc(var(--fs-responsive) * 2);
   line-height: 1.2;
+}
+h2 {
+  font-size: calc(var(--fs-responsive) * 1.4);
 }
 p + p {
   margin-top: 1rem;
