@@ -54,6 +54,7 @@ h2 {
   border-bottom: 1px solid grey;
 }
 article {
+  text-align: left;
   display: flex;
   flex-direction: column;
   justify-content: space-between;

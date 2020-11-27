@@ -39,6 +39,7 @@ body {
   line-height: 1.6;
 }
 #app {
+  text-align: center;
   display: grid;
   grid-template-rows: auto 1fr auto;
 }
