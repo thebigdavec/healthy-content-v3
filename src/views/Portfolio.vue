@@ -24,7 +24,7 @@ export default {
           id: "001",
           name: "Ronhill",
           logoPath: "./images/clients/ronhill.png",
-          imagePath: "./images/clients/modals/ronhill.png",
+          imagePath: "./images/clients/modals/ronhill.jpg",
           description:
             "This leading running brand wanted to create an online social media campaign called #RunEveryDay to raise its profile and encourage people of all abilities to start running. Healthy Content was asked to supply relevant content, including tips for beginners, how to get fitter, training plans and inspirational blogs.",
         },
@@ -48,7 +48,7 @@ export default {
           id: "004",
           name: "Dennis Publishing",
           logoPath: "./images/clients/dennis.png",
-          imagePath: "./images/clients/modals/dennis.png",
+          imagePath: "./images/clients/modals/dennis.jpg",
           description:
             "This busy publisher wanted to produce a series of fitness books aimed at women keen to get in shape. The Healthy Content team created three 148 page books, covering every aspect of the editorial process, including generating the editorial concept and content for each book and commissioning and writing the copy, as well as design and production. The portfolio received print-ready PDF files, on time and on budget.",
         },
@@ -56,7 +56,7 @@ export default {
           id: "005",
           name: "Wild Bunch Media",
           logoPath: "./images/clients/womens-running.png",
-          imagePath: "./images/clients/modals/womens-running.png",
+          imagePath: "./images/clients/modals/womens-running.jpg",
           description:
             "The award-winning publishers of Women's and Men's Running magazines wanted to create a series of bookazines for runners training for spring marathons. Healthy Content Director Christina Macdonald commissioned, edited and oversaw the design of four marathon books, liaising with writers, designers and photo libraries. The books were sold in retail outlets and online.",
         },
