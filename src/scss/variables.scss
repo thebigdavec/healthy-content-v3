@@ -10,7 +10,10 @@ $clr-accent: #ffbc00;
 $lts-small: 1px;
 $lts-large: 1.2px;
 // font size
+$fs-responsive-sm: calc(clamp(calc(1rem + 1vw), calc(1rem + 1vw), 1rem) * .7);
 $fs-responsive: clamp(calc(0.8125rem + 1vw), calc(0.8125rem + 1vw), 1rem);
+$fs-responsive-h1: calc((clamp(calc(0.8125rem + 1vw), calc(0.8125rem + 1vw), 1rem)) * 2);
+$fs-responsive-h2: calc((clamp(calc(0.8125rem + 1vw), calc(0.8125rem + 1vw), 1rem)) * 1.4);
 // Spacing
 $gap: 2ch;
 // Breakpoints

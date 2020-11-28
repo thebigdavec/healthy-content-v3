@@ -58,6 +58,7 @@ li {
 img {
   display: block;
   max-width: 100%;
+  box-shadow: 0 0 10px 2px #0001;
   border-radius: 1em;
 }
 .details {
@@ -69,6 +70,7 @@ img {
   line-height: 1;
 }
 .position {
+  font-size: $fs-responsive-sm;
   opacity: 0.6;
 }
 .biog {

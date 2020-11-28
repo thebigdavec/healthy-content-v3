@@ -44,15 +44,11 @@ body {
   grid-template-rows: auto 1fr auto;
 }
 h1 {
-  font-size: calc(
-    clamp(calc(0.8125rem + 1vw), calc(0.8125rem + 1vw), 1rem) * 2
-  );
+  font-size: $fs-responsive-h1;
   line-height: 1.2;
 }
 h2 {
-  font-size: calc(
-    clamp(calc(0.8125rem + 1vw), calc(0.8125rem + 1vw), 1rem) * 1.4
-  );
+  font-size: $fs-responsive-h2;
 }
 p {
   max-width: 80ch;

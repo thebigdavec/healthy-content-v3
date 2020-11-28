@@ -57,7 +57,7 @@ export default {
   },
 };
 </script>
-<style scoped>
+<style lang="scss" scoped>
 .about {
   flex-grow: 1;
 }
