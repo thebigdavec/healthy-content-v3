@@ -1,8 +1,17 @@
 // Colours
-$primary: #0091ff;
+$clr-primary-very-dark: #001a47;
+$clr-primary-dark: #004aa3;
+$clr-primary: #0091ff;
+$clr-primary-light: #a6e4ff;
+$clr-accent-dark: #9b6200;
+$clr-accent: #ffbc00;
 // Typography
 // letter spacing
 $lts-small: 1px;
 $lts-large: 1.2px;
 // font size
 $fs-responsive: clamp(calc(0.8125rem + 1vw), calc(0.8125rem + 1vw), 1rem);
+// Spacing
+$gap: 2ch;
+// Breakpoints
+$medium: 1080px;

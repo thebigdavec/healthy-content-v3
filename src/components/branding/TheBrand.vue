@@ -1,13 +1,18 @@
 <template>
-  <div class="brand">
-    <div class="brand-image" id="brand-image">
-      <img src="../../assets/2020logo.svg" alt="Logo" />
+  <router-link :to="{ name: 'Home' }">
+    <div class="brand">
+      <div class="brand-image" id="brand-image">
+        <img src="../../assets/logo-dark-light.svg" alt="Logo" />
+      </div>
+      <div class="brand-text" id="brand-text">Healthy Content</div>
     </div>
-    <div class="brand-text" id="brand-text">Healthy Content</div>
-  </div>
+  </router-link>
 </template>
 
 <style lang="scss" scoped>
+a {
+  display: block;
+}
 .brand {
   display: grid;
   grid-template-columns: auto auto;
@@ -15,17 +20,15 @@
   gap: 0.2em;
   font-size: 1.5rem;
 }
-.brand-text {
-  color: $primary;
-  font-weight: 700;
-}
 .brand-image {
   width: 1em;
+}
+.brand-text {
+  color: $clr-primary-dark;
+  font-weight: 700;
 }
 .brand-image img {
   max-width: 100%;
   display: block;
-}
-@media (min-width: 1080px) {
 }
 </style>

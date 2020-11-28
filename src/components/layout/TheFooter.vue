@@ -1,18 +1,16 @@
 <template>
   <footer>
     <div class="container flex">
+      <small>&copy; 2020 <strong>Healthy Content</strong></small>
       <TheBrand />
-      <TheNav />
     </div>
   </footer>
 </template>
 
 <script>
-import TheNav from "./TheNav";
 import TheBrand from "../branding/TheBrand";
 export default {
   components: {
-    TheNav,
     TheBrand,
   },
 };

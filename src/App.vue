@@ -20,12 +20,7 @@ export default {
   },
 };
 </script>
-<style>
-:root {
-  --lts-small: 1px;
-  --lts-large: 1.2px;
-  --fs-responsive: clamp(0.8125rem + 1vw, 0.8125rem + 1vw, 1rem);
-}
+<style lang="scss">
 *,
 *::after,
 *::before {
@@ -36,7 +31,7 @@ body {
   display: grid;
   min-height: 100vh;
   background-color: var(--main-bg, whitesmoke);
-  color: rgb(19, 19, 34);
+  color: $clr-primary-very-dark;
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -49,14 +44,26 @@ body {
   grid-template-rows: auto 1fr auto;
 }
 h1 {
-  font-size: calc(var(--fs-responsive) * 2);
+  font-size: calc(
+    clamp(calc(0.8125rem + 1vw), calc(0.8125rem + 1vw), 1rem) * 2
+  );
+  font-size: calc($fs-responsive * 2);
   line-height: 1.2;
 }
 h2 {
-  font-size: calc(var(--fs-responsive) * 1.4);
+  font-size: calc(
+    clamp(calc(0.8125rem + 1vw), calc(0.8125rem + 1vw), 1rem) * 1.4
+  );
+  font-size: calc($fs-responsive * 1.4);
+}
+p {
+  max-width: 80ch;
 }
 p + p {
   margin-top: 1rem;
+}
+a {
+  text-decoration: none;
 }
 .container {
   width: 85%;
@@ -82,27 +89,12 @@ p + p {
 .highlight {
   background-color: #ffa;
 }
-p {
-  max-width: 80ch;
-}
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
 
 .router-enter-from {
   opacity: 0;
 }
 .router-leave-to {
-  transform: translateX(-120%);
+  opacity: 0;
 }
 
 .router-enter-active {
@@ -110,13 +102,13 @@ p {
 }
 
 .router-leave-active {
-  transition: transform 150ms ease-out;
+  transition: opacity 150ms ease-out;
 }
 
 .router-enter-to {
   opacity: 1;
 }
 .router-leave-from {
-  transform: translateX(0);
+  opacity: 1;
 }
 </style>
