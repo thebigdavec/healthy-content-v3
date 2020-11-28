@@ -10,13 +10,20 @@
     >
     <h3>Call on 07957 360 242</h3>
     <h4>Or find us at:</h4>
-    <a href="https://twitter.com/christinahcneal" target="_blank"
-      ><strong>Twitter</strong></a
-    >
-    or
-    <a href="https://www.facebook.com/healthycontent1/" target="_blank"
-      ><strong>Facebook</strong></a
-    >
+    <div class="links">
+      <a
+        href="mailto:christina@healthycontent.co.uk?subject=Enquiry"
+        target="_blank"
+        ><i class="fas fa-envelope-square"></i>
+        <strong> Email christina@healhtycontent.co.uk</strong></a
+      >
+      <a href="https://twitter.com/christinahcneal" target="_blank"
+        ><i class="fab fa-twitter-square"></i><strong> Twitter</strong></a
+      >
+      <a href="https://www.facebook.com/healthycontent1/" target="_blank"
+        ><i class="fab fa-facebook-square"></i><strong> Facebook</strong></a
+      >
+    </div>
   </div>
 </template>
 <style lang="scss" scoped>
@@ -40,6 +47,23 @@
   &:hover {
     // opacity: 0.7;
     background-color: $clr-accent;
+  }
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  a {
+    font-size: smaller;
+    margin: 0.5ch;
+  }
+  @media (min-width: 1080px) {
+    flex-direction: row;
+    justify-content: center;
+    a {
+      margin: 1.5ch;
+      margin-top: 0;
+      font-size: initial;
+    }
   }
 }
 </style>

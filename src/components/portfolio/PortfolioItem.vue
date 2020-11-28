@@ -62,8 +62,11 @@ li {
   }
 }
 .details {
+  // overflow-y: scroll;
   position: fixed;
+  height: 100vh;
   display: grid;
+  overflow-y: scroll;
   gap: 1ch;
   justify-content: center;
   align-items: center;
@@ -84,6 +87,7 @@ li {
   }
   .details__image {
     padding: 1rem;
+    padding-top: 4rem;
     img {
       display: block;
       max-width: 100%;
@@ -94,11 +98,17 @@ li {
   .close {
     position: absolute;
     cursor: pointer;
-    top: 3rem;
-    right: 5rem;
-    font-size: 3rem;
+    top: 1.5rem;
+    right: 2rem;
+    font-size: 1.25rem;
+    transition: color 250ms ease;
     &:hover {
       color: $clr-accent;
+    }
+    @media (min-width: 1080px) {
+      top: 3rem;
+      right: 5rem;
+      font-size: 3rem;
     }
   }
 }

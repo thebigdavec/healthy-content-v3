@@ -71,7 +71,9 @@ img {
 }
 .position {
   font-size: $fs-responsive-sm;
-  opacity: 0.6;
+  opacity: 0.4;
+  line-height: 1.2;
+  margin-bottom: 1rem;
 }
 .biog {
   font-size: smaller;
