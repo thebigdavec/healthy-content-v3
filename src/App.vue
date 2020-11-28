@@ -47,14 +47,12 @@ h1 {
   font-size: calc(
     clamp(calc(0.8125rem + 1vw), calc(0.8125rem + 1vw), 1rem) * 2
   );
-  font-size: calc($fs-responsive * 2);
   line-height: 1.2;
 }
 h2 {
   font-size: calc(
     clamp(calc(0.8125rem + 1vw), calc(0.8125rem + 1vw), 1rem) * 1.4
   );
-  font-size: calc($fs-responsive * 1.4);
 }
 p {
   max-width: 80ch;

@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["contact"],{"3e04":function(t,a,c){},"76aa":function(t,a,c){"use strict";c("3e04")},b8fa:function(t,a,c){"use strict";c.r(a);var e=c("7a23"),n=Object(e["E"])("data-v-1e67a2f2");Object(e["t"])("data-v-1e67a2f2");var o={class:"contact"},s=Object(e["h"])("h1",null,"This is the contact page",-1);Object(e["r"])();var i=n((function(t,a){return Object(e["q"])(),Object(e["f"])("div",o,[s])}));c("76aa");const r={};r.render=i,r.__scopeId="data-v-1e67a2f2";a["default"]=r}}]);
+//# sourceMappingURL=contact.3b169645.js.map

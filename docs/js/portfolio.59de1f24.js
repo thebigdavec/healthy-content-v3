@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["portfolio"],{"1f45":function(t,c,o){},"36d2":function(t,c,o){"use strict";o("1f45")},c9e5:function(t,c,o){"use strict";o.r(c);var a=o("7a23"),e=Object(a["E"])("data-v-382a0c50");Object(a["t"])("data-v-382a0c50");var n={class:"portfolio"},i=Object(a["h"])("h1",null,"This is the portfolio page",-1);Object(a["r"])();var r=e((function(t,c){return Object(a["q"])(),Object(a["f"])("div",n,[i])}));o("36d2");const s={};s.render=r,s.__scopeId="data-v-382a0c50";c["default"]=s}}]);
+//# sourceMappingURL=portfolio.59de1f24.js.map

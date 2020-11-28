@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["services"],{"5a48":function(e,t,c){},b770:function(e,t,c){"use strict";c("5a48")},f23e:function(e,t,c){"use strict";c.r(t);var s=c("7a23"),d=Object(s["E"])("data-v-7d852dd4");Object(s["t"])("data-v-7d852dd4");var a={class:"services"},n=Object(s["h"])("h1",null,"This is the services page",-1);Object(s["r"])();var i=d((function(e,t){return Object(s["q"])(),Object(s["f"])("div",a,[n])}));c("b770");const r={};r.render=i,r.__scopeId="data-v-7d852dd4";t["default"]=r}}]);
+//# sourceMappingURL=services.71367801.js.map
