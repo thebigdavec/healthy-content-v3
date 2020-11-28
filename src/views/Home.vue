@@ -1,6 +1,6 @@
 <template>
   <main class="home">
-    <h1>Presenting Your Vision</h1>
+    <h1>Let Us Tell Your Story</h1>
     <article>
       <section>
         <h2>Words are our language</h2>

@@ -7,7 +7,7 @@
   </div>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 .brand {
   display: grid;
   grid-template-columns: auto auto;
@@ -16,6 +16,7 @@
   font-size: 1.5rem;
 }
 .brand-text {
+  color: $primary;
   font-weight: 700;
 }
 .brand-image {

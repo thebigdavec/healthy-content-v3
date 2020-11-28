@@ -1,7 +1,11 @@
 <template>
   <TheHeader />
   <div class="container flex">
-    <router-view />
+    <router-view v-slot="slotProps">
+      <transition name="router" mode="out-in">
+        <component :is="slotProps.Component" />
+      </transition>
+    </router-view>
   </div>
   <TheFooter />
 </template>
@@ -92,5 +96,27 @@ p {
 
 #nav a.router-link-exact-active {
   color: #42b983;
+}
+
+.router-enter-from {
+  opacity: 0;
+}
+.router-leave-to {
+  transform: translateX(-120%);
+}
+
+.router-enter-active {
+  transition: opacity 1s ease-out;
+}
+
+.router-leave-active {
+  transition: transform 150ms ease-out;
+}
+
+.router-enter-to {
+  opacity: 1;
+}
+.router-leave-from {
+  transform: translateX(0);
 }
 </style>
