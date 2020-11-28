@@ -25,7 +25,7 @@ li {
   border-radius: 1rem;
   padding: 2rem 1rem;
   box-shadow: 0 0 10px 2px #0001;
-  z-index: 0;
+  z-index: -1;
   @media (min-width: 1080px) {
     padding: 2rem 2rem 2rem;
     flex-basis: 48%;

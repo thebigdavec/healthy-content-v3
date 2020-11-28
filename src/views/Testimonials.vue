@@ -83,7 +83,7 @@ export default {
     justify-content: center;
     text-align: left;
     margin: 0 auto 2rem;
-    z-index: 0;
+    z-index: -1;
     @media (min-width: 1080px) {
       max-width: 80%;
     }
