@@ -3,13 +3,14 @@
     <img :src="portfolio.logoPath" :alt="portfolio.name" />
   </li>
   <div class="details" v-if="isDetailsOpen" @click="closeDetails">
+    <div class="details__image">
+      <img :src="portfolio.imagePath" :alt="detailsImageAlt" />
+    </div>
     <div class="details__text">
       <h3>{{ portfolio.name }}</h3>
       <p>{{ portfolio.description }}</p>
     </div>
-    <div class="details__image">
-      <img :src="portfolio.imagePath" :alt="detailsImageAlt" />
-    </div>
+    <div class="close" @click="closeDetails"><i class="fas fa-times"></i></div>
   </div>
 </template>
 
@@ -74,7 +75,7 @@ li {
   z-index: 9998;
   backdrop-filter: blur(10px);
   @media (min-width: 1080px) {
-    grid-template-columns: 25% 50%;
+    grid-template-columns: 35% 50%;
   }
   .details__text {
     padding: 1rem;
@@ -88,6 +89,16 @@ li {
       max-width: 100%;
       max-height: 85vh;
       margin: 0 auto;
+    }
+  }
+  .close {
+    position: absolute;
+    cursor: pointer;
+    top: 3rem;
+    right: 5rem;
+    font-size: 3rem;
+    &:hover {
+      color: $clr-accent;
     }
   }
 }
