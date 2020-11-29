@@ -1,6 +1,6 @@
 <template>
   <li>
-    <div class="quotes fas fa-comment"></div>
+    <div class="bubble fas fa-comment"></div>
     <div class="name">{{ testimonial.name }}</div>
     <div class="detail">
       {{ testimonial.position }}, {{ testimonial.client }}
@@ -24,7 +24,7 @@ li {
   background-color: white;
   border-radius: 1rem;
   padding: 2rem 1rem;
-  box-shadow: 0 0 10px 2px #0001;
+  box-shadow: 0 10px 30px -20px #0002;
   z-index: -1;
   @media (min-width: 1080px) {
     padding: 2rem 2rem 2rem;
@@ -44,12 +44,16 @@ li {
     font-size: $fs-responsive-sm;
     margin-top: 1rem;
   }
-  .quotes {
+  .bubble {
     position: absolute;
-    top: 1rem;
+    top: 0.8rem;
     right: 1rem;
     font-size: 4rem;
     color: #0002;
+    @media (min-width: 1080px) {
+      top: 1.5rem;
+      right: 1.8rem;
+    }
   }
 }
 </style>
