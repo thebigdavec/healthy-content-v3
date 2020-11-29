@@ -1,6 +1,6 @@
 <template>
   <div class="testimonials">
-    <h1>What our clients are saying</h1>
+    <h1>What Our Clients Are Saying</h1>
     <ul class="testimonials">
       <TestimonailItem
         v-for="testimonial in testimonials"
