@@ -18,6 +18,13 @@ export default {
     TheHeader,
     TheFooter,
   },
+  watch: {
+    $route(to) {
+      document.title = to.meta.title
+        ? to.meta.title + " | Healthy Content"
+        : "Healthy Content";
+    },
+  },
 };
 </script>
 <style lang="scss">
