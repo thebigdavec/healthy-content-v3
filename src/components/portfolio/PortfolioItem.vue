@@ -49,7 +49,7 @@ li {
   max-height: 100%;
   padding: 1rem 2rem;
   border-radius: 1rem;
-  box-shadow: 0 0 10px 2px #0001;
+  box-shadow: 0 10px 30px -20px #0002;
   cursor: pointer;
   background-color: white;
   img {
@@ -82,12 +82,17 @@ li {
   }
   .details__text {
     padding: 1rem;
+    background: white;
+    box-shadow: 0 10px 30px -20px #0002;
+    border-radius: 1rem;
     text-align: left;
     justify-self: right;
   }
   .details__image {
     padding: 1rem;
-    padding-top: 4rem;
+    margin-top: 3rem;
+    background: white;
+    box-shadow: 0 10px 30px -20px #0002;
     img {
       display: block;
       max-width: 100%;
