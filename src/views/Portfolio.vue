@@ -47,7 +47,7 @@ export default {
         {
           id: "004",
           name: "Dennis Publishing",
-          logoPath: "./images/clients/dennis.png",
+          logoPath: "./images/clients/dennis-backup.png",
           imagePath: "./images/clients/modals/dennis.jpg",
           description:
             "This busy publisher wanted to produce a series of fitness books aimed at women keen to get in shape. The Healthy Content team created three 148 page books, covering every aspect of the editorial process, including generating the editorial concept and content for each book and commissioning and writing the copy, as well as design and production. The portfolio received print-ready PDF files, on time and on budget.",

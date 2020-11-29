@@ -77,7 +77,7 @@ export default {
         {
           id: "004",
           name: "Dennis",
-          logoPath: "./images/clients/dennis.png",
+          logoPath: "./images/clients/dennis-backup.png",
         },
         {
           id: "005",
