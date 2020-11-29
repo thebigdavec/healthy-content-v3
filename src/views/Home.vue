@@ -45,34 +45,29 @@ export default {
   },
 };
 </script>
-<style scoped>
+<style lang="scss" scoped>
 .home {
   align-self: center;
 }
 h2 {
   text-align: center;
-  border-bottom: 1px solid grey;
 }
 article {
   text-align: left;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
-article section {
-  box-shadow: 0 10px 10px -10px #0002 inset;
-  width: fit-content;
-  flex-basis: 48%;
-  padding: 2rem 0;
+  section {
+    width: fit-content;
+    flex-basis: 48%;
+    padding: 2rem 0;
+  }
 }
 
 @media (min-width: 1080px) {
   article {
     flex-direction: row;
     text-align: initial;
-  }
-  article section {
-    box-shadow: none;
   }
 }
 </style>
