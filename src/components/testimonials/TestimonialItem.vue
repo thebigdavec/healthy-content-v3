@@ -33,11 +33,13 @@ li {
   .name {
     font-weight: 700;
     font-size: $fs-responsive;
-    line-height: 1;
+    line-height: 1.2;
   }
   .detail {
     font-size: $fs-responsive-sm;
-    opacity: 0.55;
+    opacity: 0.4;
+    line-height: 1.2;
+    margin-bottom: 1rem;
     max-width: 80%;
   }
   .message {

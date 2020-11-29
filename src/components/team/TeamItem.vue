@@ -67,7 +67,7 @@ img {
 .name {
   font-size: $fs-responsive;
   font-weight: 700;
-  line-height: 1;
+  line-height: 1.2;
 }
 .position {
   font-size: $fs-responsive-sm;
