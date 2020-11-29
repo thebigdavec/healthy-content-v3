@@ -134,9 +134,14 @@ export default {
   align-items: center;
   li {
     margin: 1ch;
+    display: flex;
+    align-items: center;
     flex-basis: 75%;
-    width: 100%;
-    max-height: 100%;
+    background: white;
+    align-self: stretch;
+    padding: 1rem;
+    box-shadow: 0 10px 30px -20px #0002;
+    border-radius: 1rem;
     @media (min-width: 1080px) {
       flex-basis: 23%;
     }

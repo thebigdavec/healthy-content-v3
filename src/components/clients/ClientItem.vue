@@ -15,5 +15,6 @@ img {
   display: block;
   max-width: 100%;
   margin: 0 auto;
+  background: white;
 }
 </style>
