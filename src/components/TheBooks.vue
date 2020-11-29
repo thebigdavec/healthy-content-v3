@@ -1,14 +1,20 @@
 <template>
   <div class="books">
-    <a href="#" target="_blank" class="book book1"
+    <a
+      href="https://www.amazon.co.uk/Dementia-Care-Guide-Sheldon-Guides/dp/184709399X/ref=sr_1_3"
+      target="_blank"
+      class="book book1"
       ><img src="../assets/images/books/dementia-care.jpg"
     /></a>
-    <a href="#" target="_blank" class="book book2"
+    <a
+      href="https://www.amazon.co.uk/Run-Yourself-Fit-Simple-Healthier/dp/1849537992/ref=sr_1_1"
+      target="_blank"
+      class="book book2"
       ><img src="../assets/images/books/run-yourself-fit.jpg"
     /></a>
-    <a href="#" target="_blank" class="book book3"
-      ><img src="../assets/images/books/womens-running-65.png"
-    /></a>
+    <div class="book book3">
+      <img src="../assets/images/books/womens-running-65.png" />
+    </div>
   </div>
 </template>
 
@@ -19,20 +25,26 @@ export default {};
 <style scoped>
 .books {
   display: flex;
-  /* flex-direction: column; */
   justify-content: center;
   align-items: center;
 }
 .book {
-  display: block;
   flex-basis: 33%;
   transition: 250ms ease;
+  box-shadow: 0 10px 30px -20px #0002;
 }
 .book + .book {
   margin: 0 0 0 0.5rem;
 }
 .book img {
+  display: block;
   max-width: 100%;
+}
+a.book {
+  transition: transform 250ms ease;
+}
+a.book:hover {
+  transform: scale(1.1);
 }
 @media (min-width: 1080px) {
   .books {
@@ -40,9 +52,6 @@ export default {};
   }
   .book + .book {
     margin: 0 0 0 1rem;
-  }
-  .book:hover {
-    flex-basis: 100%;
   }
 }
 </style>
