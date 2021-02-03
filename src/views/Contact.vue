@@ -15,7 +15,7 @@
         href="mailto:christina@healthycontent.co.uk?subject=Enquiry"
         target="_blank"
         ><i class="fas fa-envelope-square"></i>
-        <strong> Email christina@healhtycontent.co.uk</strong></a
+        <strong> Email christina@healthycontent.co.uk</strong></a
       >
       <a href="https://twitter.com/christinahcneal" target="_blank"
         ><i class="fab fa-twitter-square"></i><strong> Twitter</strong></a
