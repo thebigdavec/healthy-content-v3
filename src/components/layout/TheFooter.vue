@@ -1,19 +1,21 @@
 <template>
   <footer>
     <div class="container flex">
-      <div class="little">&copy; 2020 <strong>Healthy Content</strong></div>
+      <div class="little">
+        &copy; 2020 - 2021 <strong>Healthy Content</strong>
+      </div>
       <TheBrand />
     </div>
   </footer>
 </template>
 
 <script>
-import TheBrand from "../branding/TheBrand";
+import TheBrand from "../branding/TheBrand"
 export default {
   components: {
-    TheBrand,
-  },
-};
+    TheBrand
+  }
+}
 </script>
 
 <style lang="scss" scoped>
