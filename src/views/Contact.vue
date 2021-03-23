@@ -11,11 +11,9 @@
     <h3>Call on 07957 360 242</h3>
     <h4>Or find us at:</h4>
     <div class="links">
-      <a
-        href="mailto:christina@healthycontent.co.uk?subject=Enquiry"
-        target="_blank"
+      <a href="mailto:c.neal@mac.com?subject=Enquiry" target="_blank"
         ><i class="fas fa-envelope-square"></i>
-        <strong> Email christina@healthycontent.co.uk</strong></a
+        <strong> Email c.neal@mac.com</strong></a
       >
       <a href="https://twitter.com/christinahcneal" target="_blank"
         ><i class="fab fa-twitter-square"></i><strong> Twitter</strong></a
