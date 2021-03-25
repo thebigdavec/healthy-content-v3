@@ -4,17 +4,19 @@
       href="https://www.amazon.co.uk/Dementia-Care-Guide-Sheldon-Guides/dp/184709399X/ref=sr_1_3"
       target="_blank"
       class="book book1"
-      alt="Dementia Care - A Guide Book Cover"
       rel="noreferrer"
-      ><img src="../assets/images/books/dementia-care.jpg"
+      ><img
+        src="../assets/images/books/dementia-care.jpg"
+        alt="Dementia Care - A Guide Book Cover"
     /></a>
     <a
       href="https://www.amazon.co.uk/Run-Yourself-Fit-Simple-Healthier/dp/1849537992/ref=sr_1_1"
       target="_blank"
       class="book book2"
-      alt="Run Yourself Fit Book Cover"
       rel="noreferrer"
-      ><img src="../assets/images/books/run-yourself-fit.jpg"
+      ><img
+        src="../assets/images/books/run-yourself-fit.jpg"
+        alt="Run Yourself Fit Book Cover"
     /></a>
     <div class="book book3">
       <img
