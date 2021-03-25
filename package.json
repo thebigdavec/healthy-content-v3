@@ -1,6 +1,6 @@
 {
-    "name": "healthy-content-v3",
-    "version": "0.1.0",
+    "name": "healthy-content",
+    "version": "3.0.0",
     "private": true,
     "author": "Dave Collison",
     "scripts": {
