@@ -1,7 +1,7 @@
 <template>
   <li>
     <div class="photo">
-      <img :src="member.photoPath" :alt="altText" />
+      <img :src="member.photoPath" alt="" />
     </div>
     <div class="details">
       <div class="name">{{ member.name }}</div>
@@ -15,13 +15,8 @@
 
 <script>
 export default {
-  props: ["member"],
-  computed: {
-    altText() {
-      return "Photo of " + this.member.name;
-    },
-  },
-};
+  props: ["member"]
+}
 </script>
 
 <style lang="scss" scoped>
